@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Cafeteria</title>
+
+    <!-- ScrollReveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="js/reveal.js" defer></script>
+
+    <!-- Swiper js -->
+    <link rel="stylesheet" href="style/swiper-bundle.min.css">
+
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+
+    <main>
+        <header class="header">
+            <div class="header-container">
+                <div class="logo-header">
+                    <img src="imagens/logo.png" alt="logo">
+                </div>
+
+                <nav class="nav">
+                    <ul class="list-links">
+                        <li><a href="#hero-section">Home</a></li>
+                        <li><a href="#sobre-nos-section">Sobre</a></li>
+                        <li><a href="#cards-section">Menu</a></li>
+                        <li><a href="#avaliacoes-section">Avaliações</a></li>
+                        <li><a href="#endereco-section">Endereço</a></li>
+                    </ul>
+                </nav>
+
+                <div class="research">
+                    <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                    <div class="menu-burguer-div">
+                        <a class="menu-burguer-link" href="#"><i class="fa-solid fa-bars menu-burguer"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="menu-mobile open">
+                <nav class="nav-mobile">
+                    <ul>
+                        <li><a href="#hero-section">Home</a></li>
+                        <li><a href="#sobre-nos-section">Sobre</a></li>
+                        <li><a href="#cards-section">Menu</a></li>
+                        <li><a href="#avaliacoes-section">Avaliações</a></li>
+                        <li><a href="#endereco-section">Endereço</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <section class="hero-section" id="hero-section">
+            <div class="hero-section-container">
+                <div class="hero-section-content efeito-hero-section">
+                    <h1>O melhor café da região</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, soluta magni? Blanditiis et ducimus tempora sunt a earum voluptatem.</p>
+                    <button>Pedir agora</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="sobre-nos-section efeito-sobre-nos-section" id="sobre-nos-section">
+            <div class="sobre-nos-content">
+
+                <h1 class="sobre-nos-title"><span>Sobre</span> nós</h1>
+
+                <div class="sobre-nos-desc">
+                    <div class="sobre-nos-desc-container">
+
+                        <img class="sobre-nos-image" src="imagens/about-img.jpg" alt="">
+
+                        <div class="sobre-nos-txt">
+                            <div class="sobre-nos-txt-container">
+                                <h3>O que faz nosso café especial?</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae saepe aspernatur rerum ea illum mollitia iusto incidunt velit veniam laudantium.</p>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione possimus dolorum enim quia vitae alias, ab expedita laudantium a consequatur in aspernatur.</p>
+
+                                <button>Saíba Mais</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="cards-section efeito-cards-section" id="cards-section">
+
+            <div class="cards-section-title">
+                <h1>Nosso <span>menu</span></h1>
+            </div>
+
+            <div class="slide-container swiper">
+                <div class="slide-content">
+                    <div class="card-wrapper swiper-wrapper">
+
+                        <div class="card swiper-slide">
+                            <div class="card-image">
+                                <img src="imagens/menu-1.png" alt="café">
+                            </div>
+
+                            <div class="card-content">
+                                <p class="card-name">Café Expresso</p>
+                                <p class="card-price">R$ 12.99</p>
+                                <button class="card-button">Fazer Pedido</button>
+                            </div>
+                        </div>
+
+                        <div class="card swiper-slide">
+                            <div class="card-image">
+                                <img src="imagens/menu-2.png" alt="café">
+                            </div>
+
+                            <div class="card-content">
+                                <p class="card-name">Café Expresso</p>
+                                <p class="card-price">R$ 12.99</p>
+                                <button class="card-button">Fazer Pedido</button>
+                            </div>
+                        </div>
+
+                        <div class="card swiper-slide">
+                            <div class="card-image">
+                                <img src="imagens/menu-3.png" alt="café">
+                            </div>
+
+                            <div class="card-content">
+                                <p class="card-name">Café Expresso</p>
+                                <p class="card-price">R$ 12.99</p>
+                                <button class="card-button">Fazer Pedido</button>
+                            </div>
+                        </div>
+
+                        <div class="card swiper-slide">
+                            <div class="card-image">
+                                <img src="imagens/menu-4.png" alt="café">
+                            </div>
+
+                            <div class="card-content">
+                                <p class="card-name">Café Expresso</p>
+                                <p class="card-price">R$ 12.99</p>
+                                <button class="card-button">Fazer Pedido</button>
+                            </div>
+                        </div>
+
+                        <div class="card swiper-slide">
+                            <div class="card-image">
+                                <img src="imagens/menu-5.png" alt="café">
+                            </div>
+
+                            <div class="card-content">
+                                <p class="card-name">Café Expresso</p>
+                                <p class="card-price">R$ 12.99</p>
+                                <button class="card-button">Fazer Pedido</button>
+                            </div>
+                        </div>
+
+                        <div class="card swiper-slide">
+                            <div class="card-image">
+                                <img src="imagens/menu-6.png" alt="café">
+                            </div>
+
+                            <div class="card-content">
+                                <p class="card-name">Café Expresso</p>
+                                <p class="card-price">R$ 12.99</p>
+                                <button class="card-button">Fazer Pedido</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-button-prev swiper-nav-btn"></div>
+                <div class="swiper-button-next swiper-nav-btn"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+
+            <button class="menu-button">Menu Completo</button>
+        </section>
+
+        <section class="avaliacoes-section efeito-avaliacoes-section" id="avaliacoes-section">
+            <div class="avaliacoes-container">
+                <div class="avaliacoes-tilte">
+                    <h1>Nossos <span>clientes</span></h1>
+                </div>
+
+                <div class="avaliacao-cards-container">
+                    <div class="avaliacao-card efeito-avaliacao-card1">
+                        <div class="avaliacao-card-img">
+                            <img src="imagens/quote-img.png" alt="">
+                        </div>
+
+                        <p class="avaliacao-p">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga doloribus, rerum voluptas itaque, assumenda ea optio aspernatur praesentium quam!</p>
+
+                        <div class="avaliacao-photo">
+                            <img src="imagens/pic-1.png" alt="foto">
+                        </div>
+
+                        <p class="avaliacao-name">Pedro José</p>
+
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                    </div>
+
+                    <div class="avaliacao-card efeito-avaliacao-card2">
+                        <div class="avaliacao-card-img">
+                            <img src="imagens/quote-img.png" alt="">
+                        </div>
+
+                        <p class="avaliacao-p">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga doloribus, rerum voluptas itaque, assumenda ea optio aspernatur praesentium quam!</p>
+
+                        <div class="avaliacao-photo">
+                            <img src="imagens/pic-2.png" alt="foto">
+                        </div>
+
+                        <p class="avaliacao-name">Ana Clara</p>
+
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                <button class="avaliacoes-button">Ver Avaliações</button>
+            </div>
+        </section>
+
+        <section class="endereco-section efeito-endereco-section" id="endereco-section">
+            <div class="endereco-container">
+                <div class="endereco-title">
+                    <h1><span>Nosso</span> endereço</h1>
+                </div>
+
+                <div class="map-contato">
+                    <div class="map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14817.300293019578!2d-49.61973213310208!3d-21.80636750835719!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94be467589002709%3A0x54c03e662abc324e!2sCafel%C3%A2ndia%2C%20SP%2C%2016500-000!5e0!3m2!1spt-BR!2sbr!4v1716579600650!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+
+                    <div class="informacoes-endereco">
+                        <p><i class="fa-solid fa-location-dot"></i> R. Maria Martinês Tôrres, 169 - Cafelândia, SP</p>
+                        <p><i class="fa-solid fa-envelope"></i> cafeteria@gmail.com</p>
+                        <p><i class="fa-solid fa-phone"></i> +55 12 91234-4567</p>
+                        <p><i class="fa-solid fa-phone"></i> +55 12 91234-4567</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div class="footer-container">
+                <div class="footer-redes">
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                </div>
+                <p class="p-footer">Projeto fictício desenvolvido por <strong>Daniel Vargas</strong></p>
+            </div>
+        </footer>
+    </main>
+    
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
